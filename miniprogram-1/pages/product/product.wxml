@@ -1,0 +1,6 @@
+<!--pages/product/product.wxml-->
+<view class="padding">
+  <view class=" padding solid border " wx:for="{{product}}" wx:key="txt">
+    <text class="text-white">{{item.txt}}</text>
+  </view>
+</view>

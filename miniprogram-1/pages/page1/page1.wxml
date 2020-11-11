@@ -1,0 +1,61 @@
+<view class="padding">
+  <view class="padding-xl radius shadow text-white margin-top-xs text-black text-bold text-xl  text-center">质保查询</view>
+  <view class="padding-xl radius shadow text-white border">
+    <text class="text-orange">温馨提示：</text>
+    <text>\n\n感谢您选择飛翔，为了您的合法消费权益，请在贴完改色膜验收完成之后，务必向飛翔经销商索取官方电子质保信息，电子质保是唯一的正品认证渠道，以防假冒。</text>
+    <text>\n\n1.在购买后的一年以内进行使用：从施工之日起，车辆享受飛翔官方质保服务。</text>
+    <text>\n\n2.保修的范围包括：脱胶，开胶，气泡和分层。本保证不包含因外力造成的产品磨损，外界对产品的腐蚀，事故，碰撞或任何形式的故意破坏。</text>
+    <text>\n\n3.本保证不可转让出售，该车转让时本保证自动终止。</text>
+    <text>\n\n4.汽车补膜出现的色差不在质保范围内（每一批次的改色膜都会存在色差，不可避免）。</text>
+  </view>
+  
+  <view class="padding-xl radius shadowtext-white border">
+    <view class="cu-bar search text-white">
+      <text class="cuIcon-moreandroid lg " bindtap="showModal" data-target="RadioModal"></text>
+      <view class="search-form round ">
+        <text class="cuIcon-search "></text>
+        <input placeholder="手机号" type="text" bindinput="ins" wx:if="{{value=='phone'}}"></input>
+        <input placeholder="车牌号" type="text" bindinput="ins" wx:if="{{value=='carNumber'}}"></input>
+      </view>
+      <view class="action button">
+        <button class="cu-btn bg-green shadow-blur round" bindtap="click">查询</button>
+      </view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow text-white border">
+    <text class="text-orange">改色膜使用注意事项：</text>
+    <text>\n\n1、贴膜后一周内避免洗车，以保证胶和漆面产生最好的结合力</text>
+    <text>\n\n2、清洗车辆时候，应避免使用高压水枪对膜边缘冲洗</text>
+    <text>\n\n3、清洗车辆时候，应避免使用刷子和腐蚀性化学物质</text>
+    <text>\n\n4、避免硬物刮擦和用例擦洗膜表面，刮擦和磨损的痕迹会影响膜的整体效果</text>
+    <text>\n\n5、建议每两个月对膜面进行一次常规护理</text>
+    <text>\n\n6、不建议在膜面上抛光</text>
+    <text>\n\n7、夏季阳光紫外线照射强度很强，切勿将爱车长时间停放室外暴晒</text>
+    <text>\n\n8、爱车遮阳，请勿将车停放树下，否则会有大量鸟粪虫胶树胶黏着膜面，腐蚀性强，容易破坏膜面涂层</text>
+    <text>\n\n9、请勿将爱车长时间停在油烟机排风扇下面，否则会有大量油渍积在膜面，不易清洗</text>
+    <text>\n\n10、请勿将爱车长时间停在空调出风口滴水处，具有腐蚀性的空调水会破坏膜面涂层结构</text>
+    <text>\n\n11、不要将长时间停在雨水中，雨水中的酸性物质会侵蚀膜面</text>
+    </view>
+
+</view>
+
+<view class="cu-modal {{modalName=='RadioModal'?'show':''}}" bindtap="hideModal">
+  <view class="cu-dialog">
+    <radio-group class="block" bindchange="radio">
+      <view class="cu-list menu text-left">
+        <view class="cu-item">
+          <label class="flex justify-between align-center flex-sub">
+            <view class="flex-sub">根据手机号查询</view>
+            <radio class="round" value="phone" checked="true"></radio>
+          </label>
+        </view>
+        <view class="cu-item">
+          <label class="flex justify-between align-center flex-sub">
+            <view class="flex-sub">根据车牌号查询</view>
+            <radio class="round" value="carNumber"></radio>
+          </label>
+        </view>
+      </view>
+    </radio-group>
+  </view>
+</view>

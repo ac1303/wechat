@@ -1,0 +1,10 @@
+/* pages/page1/page1.wxss */
+.button{
+  width: 30%;
+}
+page{
+  background-color: black;
+  }
+  .border{
+    border: 1rpx solid white;
+  }

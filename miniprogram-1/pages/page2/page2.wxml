@@ -1,0 +1,51 @@
+<!--pages/page2/page2.wxml-->
+
+<view class="UCenter-bg text-center">
+</view>
+
+<view class="padding-xl radius shadow-warp text-white margin-top text-center text-xl text-bold border">
+联系我们
+</view>
+<view class="cu-list card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+  <view class="padding solid border" bindtap="call">
+      <view>
+        <text class="cuIcon-phone text-cyan "></text>
+        <text class="text-white">    拨打电话</text>
+      </view>
+    </view>
+    <view class="padding solid border" bindtap="savephone">
+      <view>
+        <text class="cuIcon-friendfill text-orange"></text>
+        <text class="text-white">保存电话</text>
+      </view>
+    </view>
+    <view class="padding solid border" bindtap="showModal" data-target="Image">
+      <view>
+        <text class="cuIcon-qr_code lg text-gray"></text>
+        <text class="text-white">添加微信</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="bg-img" style="background-image:url(/icon/wx.jpg);height:400px;">
+      <view class="cu-bar justify-end text-white">
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close "></text>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar text-black">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">我知道了</view>
+    </view>
+  </view>
+</view> -->
+<view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+  <image src="/icon/wx.jpg" class="addweixing" style="height:700rpx"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">我知道了</view>
+    </view>
+  </view>
+</view>

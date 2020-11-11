@@ -1,0 +1,4 @@
+/* pages/anli/anli.wxss */
+page{
+  background-color: black;
+  }

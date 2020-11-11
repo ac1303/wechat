@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/anli/anli",
+    "pages/select/select",
+    "pages/price/price",
+    "pages/jonin/join",
+    "pages/product/product"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "飛翔贴膜改色运营中心",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#000000",
+    "color": "#00FF00",
+    "selectedColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/icon/shouye.png",
+        "selectedIconPath": "/icon/shouye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/page1/page1",
+        "iconPath": "/icon/select.png",
+        "selectedIconPath": "/icon/select1.png",
+        "text": "质保查询"
+      },
+      {
+        "pagePath": "pages/jonin/join",
+        "iconPath": "/icon/join.png",
+        "selectedIconPath": "/icon/join1.png",
+        "text": "加入我们"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "iconPath": "/icon/about.png",
+        "selectedIconPath": "/icon/about1.png",
+        "text": "联系我们"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

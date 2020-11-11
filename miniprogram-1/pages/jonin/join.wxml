@@ -1,0 +1,4 @@
+<!--pages/jonin/join.wxml-->
+<view class="content">
+ <image class="background" src="/icon/jiameng.jpg" mode="aspectFoll"></image>
+</view>

@@ -1,0 +1,7 @@
+/* pages/product/product.wxss */
+page{
+  background-color: black;
+  }
+  .border{
+    border: 2rpx solid white;
+  }

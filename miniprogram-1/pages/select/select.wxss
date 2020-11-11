@@ -1,0 +1,15 @@
+/* pages/select/select.wxss */
+page{
+  background-color: black;
+  }
+  .border{
+    border: 2rpx solid white;
+  }
+  .border-top{
+    height: 100rpx;
+    line-height: 100rpx;
+    border-bottom: 1rpx solid white;
+  }
+  .border-bottom{
+    border-bottom: 2rpx solid white;
+  }

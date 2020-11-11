@@ -1,0 +1,10 @@
+<!--pages/anli/anli.wxml-->
+<view class="padding-xl text-center  radius shadow-warp bg-white margin-top">
+<text class="text-bold text-black text-xxl ">{{title}}</text>
+</view>
+<view class="padding-xl radius shadow-warp bg-white">
+<text class="text-black text-xl">{{txt}}</text>
+</view>
+<view class="padding-xl text-center  radius shadow-warp bg-white margin-top">
+  <image  wx:for="{{test}}" src="{{item.pic}}" mode="aspectFill"> </image>
+</view>

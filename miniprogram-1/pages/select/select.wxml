@@ -1,0 +1,50 @@
+<!--pages/select/select.wxml-->
+<view class="padding text-center text-white" wx:if="{{txt.code=='false'}}">
+  <view class="padding-xl radius shadow border margin-top-xs text-white text-bold text-xl">没有查询到数据呢！</view>
+  <view class="padding-xl radius shadow border ">
+    <text class="text-orange text-center">温馨提示：</text>
+    <text>请重新核对您输入的内容，有可能是输入错误</text>
+  </view>
+  <view class="padding-xl radius shadow border">
+    <text>如果您确实购买了我们的产品，却没有查询到数据，请尽快联系我们解决问题</text>
+  </view>
+</view>
+
+<view class="paddin text-white" wx:if="{{txt.code=='true'}}">
+  <view class="padding-xl radius text-center shadow border margin-top-xs text-bold text-xl">总共查询到{{txt.num}}条数据</view>
+<view class="padding-xl radius shadow-warp border margin-top" wx:for="{{txt.list}}" wx:key="id">
+  <view class="radius shadow border-top">
+    <text>唯一ID：</text><text>{{item.id}}</text>
+  </view>
+  <view class="radius shadow border-top">
+    <text>客户姓名：</text><text>{{item.name}}</text>
+  </view>
+  <view class="radius shadow  border-top">
+    <text>客户电话：</text><text>{{item.phone}}</text>
+  </view>
+  <view class="radius shadow  border-top">
+    <text>车辆型号：</text><text>{{item.carModel}}</text>
+  </view>
+  <view class="radius shadow  border-top">
+    <text>车牌号码：</text><text>{{item.carNumber}}</text>
+  </view>
+  <view class="radius shadow  border-top">
+    <text>车辆颜色：</text><text>{{item.carColor}}</text>
+  </view>
+  <view class="radius shadow border-top">
+    <text>施工单位：</text><text>{{item.unit}}</text>
+  </view>
+  <view class="radius shadow  border-top">
+    <text>施工日期：</text><text>{{item.date}}</text>
+  </view>
+  <view class="radius shadow  border-top">
+    <text>施工部位：</text><text>{{item.position}}</text>
+  </view>
+  <view class="radius shadow border-top">
+    <text>施工技师：</text><text>{{item.technician}}</text>
+  </view>
+  <view class="radius shadow border-top">
+    <text>产品型号：</text><text>{{item.productModel}}</text>
+  </view>
+</view>
+</view>
