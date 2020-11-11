@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/welcome/welcom",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/jineng/jineng",
+    "pages/zhanshi/zhanshi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的简历",
+        "iconPath": "/img/jianli.png",
+        "selectedIconPath": "/img/jianli1.png"
+      },
+      {
+      "pagePath": "pages/jineng/jineng",
+      "text": "个人技能",
+      "iconPath": "/img/jineng.png",
+      "selectedIconPath": "/img/jineng1.png"
+    },
+    {
+      "pagePath": "pages/zhanshi/zhanshi",
+      "text": "实战经验",
+      "iconPath": "/img/jingyan.png",
+      "selectedIconPath": "/img/jingyan1.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,62 @@
+<view class="padding">
+  <view class="padding-xl text-center  radius shadow-warp bg-white margin-top">
+    <view class="cu-avatar xl round " style="background-image:url(http://a06.top/touxiang.jpg)">
+    </view>
+    <view class="margin-top-sm ">
+      <text class="text-black text-bold">范书华</text><text class="margin-left" style="	font-size: 20rpx;">安宸</text>
+    </view>
+    <view class="margin-top-xs ">
+      <text class="text-black">期望职位：应用开发，前端开发</text>
+    </view>
+    <view class="margin-top-xs flex solid-bottom justify-around">
+      <view bindtap="showModal" data-target="Image">
+        <text class="cuIcon-weixin lg text-gray"></text>
+        <text>添加微信</text>
+      </view>
+      <view bindtap="call">
+        <text class="cuIcon-phone lg text-gray"></text>
+        <text>拨打电话</text>
+      </view>
+      <view bindtap="savephone"> 
+        <text class="cuIcon-addressbook lg text-gray"></text>
+        <text>保存电话</text>
+      </view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="text-center">
+      <text class="cuIcon-selection text-xxl text-gray"></text>
+    </view>
+    <view class="edu margin-top text-bold text-center "></view>  
+    <view class="margin-top">
+      <text class="cuIcon-time lg text-gray"></text>
+    <text class="margin-left">2018.06-2021.07</text>
+    </view>
+    <view class="margin-top">
+      <text class="cuIcon-home lg text-gray"></text>
+    <text class="margin-left">武汉光谷职业学院</text>
+    </view>
+    <view class="margin-top">
+      <text class="cuIcon-favor lg text-gray"></text>
+    <text class="margin-left">互联网+学院 软件技术专业</text>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="text-center">
+      <text class="cuIcon-appreciate text-xxl text-gray"></text>
+    </view>
+    <view class="evaluate margin-top text-bold text-center"></view> 
+    <view class="margin-top">
+      <text>厂里面会包吃吗？有肉吗？吃不饱能添饭吗？</text>
+    </view>
+  </view>
+</view>
+
+<view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+  <image src="/img/weichat.jpg" class="addweixing"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">点击这里关闭(｀・ω・´)</view>
+    </view>
+  </view>
+</view>

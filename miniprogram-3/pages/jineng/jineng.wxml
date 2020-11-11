@@ -1,0 +1,45 @@
+<!--pages/jineng/jineng.wxml-->
+<view class="padding bg-white">
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <text class="margin-top">JAVA</text>
+    <view class="cu-progress round sm margin-top-sm striped active">
+    <view class="bg-red" style="width:{{loading?'23.8%':''}};"></view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <text class="margin-top">JavaScript</text>
+    <view class="cu-progress round sm margin-top-sm striped active">
+    <view class="bg-red" style="width:{{loading?'30.8%':''}};"></view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <text class="margin-top">HTML+CSS</text>
+    <view class="cu-progress round sm margin-top-sm striped active">
+    <view class="bg-red" style="width:{{loading?'69.8%':''}};"></view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <text class="margin-top">jQuery</text>
+    <view class="cu-progress round sm margin-top-sm striped active">
+    <view class="bg-red" style="width:{{loading?'19.8%':''}};"></view>
+    </view>
+  </view> 
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <text class="margin-top">Office</text>
+    <view class="cu-progress round sm margin-top-sm striped active">
+    <view class="bg-red" style="width:{{loading?'15.8%':''}};"></view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <text class="margin-top">PHP</text>
+    <view class="cu-progress round sm margin-top-sm striped active">
+    <view class="bg-red" style="width:{{loading?'8.8%':''}};"></view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <text class="margin-top">C++</text>
+    <view class="cu-progress round sm margin-top-sm striped active">
+    <view class="bg-red" style="width:{{loading?'4.8%':''}};"></view>
+    </view>
+  </view>
+</view>

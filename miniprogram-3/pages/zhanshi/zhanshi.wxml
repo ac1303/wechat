@@ -1,0 +1,83 @@
+<view class="padding">
+  <view class="cu-timeline">
+   <view class="cu-time">2020</view>
+   <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">飞翔贴膜改色后台管理系统和前台官网</view>
+        </view>
+      <view class="margin-top">2020年10~11月，为飞翔贴膜改色运营中心开发的后台管理系统，开发语言为JSP，实现的功能有：质保管理（增删改查）；会员信息管理（增删改查，会员余额明细）；员工账号管理；<text>\n</text>前台为展示页面，纯HTML页面，根据网上开源模板二次开发</view>
+    </view>
+    </view>
+   <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">飞翔贴膜改色小程序</view>
+        </view>
+      <view class="margin-top">2020年10~11月，为飞翔贴膜改色运营中心开发小程序，实现的功能有：价格查询，产品查看，质保查询，案例展示，联系我们</view>
+    </view>
+    </view>
+   <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">小爱课程表荣誉Coder ×2</view>
+        </view>
+      <view class="margin-top">2020年10月适配了广西幼儿高等专科学校的教务系统，实现课表导入小爱课程表</view>
+    </view>
+    </view>
+    <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">小爱课程表荣誉Coder</view>
+        </view>
+      <view class="margin-top">2020年九月，为小爱课程表适配了武汉光谷职业学院教务系统，实现了学校教务网站课程自动导入小爱课表功能。</view>
+    </view>
+    </view>
+    <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">微信小程序个人简历</view>
+        </view>
+      <view class="margin-top">就是这个简历小程序，利用课余时间两天就写完了，因为有HTML+CSS+JavaScript的基础，即使以前没接触过，也很容易上手</view>
+    </view>
+    </view>
+  </view>
+  <view class="cu-timeline">
+   <view class="cu-time">2019</view>
+    <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">插件脚本</view>
+        </view>
+      <view class="margin-top">使用Java编写，付费用户有二十余人，免费用户未统计，脚本提供群管，点歌，搜图，定时任务，查询天气，json卡片发送等功能，</view>
+    </view>
+   </view>
+   <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">API接口</view>
+        </view>
+      <view class="margin-top">使用PHP编写，实现云脚本，提供自动更新，黑名单，授权名单等服务</view>
+    </view>
+   </view>
+   <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">脚本APP</view>
+        </view>
+      <view class="margin-top">使用Android studio开发，通过这个软件可以对脚本使用的SQLite数据库进行操作</view>
+    </view>
+   </view>
+  </view>
+  <view class="cu-timeline">
+   <view class="cu-time">2018</view>
+    <view class="cu-item">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">网易云热评网站</view>
+        </view>
+      <view class="margin-top">使用html+css+js+jq，当时网易云热评网站很火，于是自己写了个，实现播放暂停，歌曲下载，随机歌曲热评</view>
+    </view>
+   </view>
+  </view>
+</view>

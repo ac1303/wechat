@@ -1,0 +1,31 @@
+.addweixing{
+  height: 680rpx;
+  width: 680rpx;
+}
+.edu{
+  height: 2rpx;
+  border-top: 2rpx solid gray;
+}
+.edu::before{
+  content: "教育背景";
+  position: relative;
+  top: -25rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color:white;
+  padding: 0 40rpx;
+}
+.evaluate{
+  height: 2rpx;
+  border-top: 2rpx solid gray;
+}
+.evaluate::before{
+  content: "正儿八经的自我评价";
+  /* text-decoration:line-through; */
+  position: relative;
+  top: -25rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color:white;
+  padding: 0 40rpx;
+}
